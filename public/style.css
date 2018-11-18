@@ -1,0 +1,74 @@
+footer {
+    /* just for demo */
+    background-color: #F8F8F8;
+    border-top: 1px solid #E7E7E7;
+    text-align:center;
+    padding:20px;
+    /* just for demo */
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.box {
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    border: 3px solid white;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 10px grey;
+
+}
+
+h2 {
+    margin-top: 20%;
+}
+body {
+    height: 400px;
+    text-align: center;
+    background-image: url("../public/img/wood.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+
+}
+.form-control {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 10px 10px grey;
+
+}
+
+.log_out {
+    margin-top: 10px;
+    margin-left: 90%;
+    width: 100px;
+}
+
+.right-button{
+    margin-left:45%;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        height: 700px;
+    }
+
+    .right-button{
+        margin-left:42%;
+    }
+
+    .log_out {
+        margin-top: 10px;
+        margin-left: 85%;
+    }
+}
+
+
